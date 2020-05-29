@@ -10,5 +10,5 @@ $file = str_replace('%address%', $file);
 $file = str_replace('%photo%', '<img src='.$file.' alt="" />'); //Maybe validate and upload the Photo
 file_put_contents($name.'.html',$file,FILE_APPEND); //Creates a file named $name.html which will output the finished document
 }
-header('Location: http://192.168.1.93/'.$name.'.html');
+header('Location: https://magickalwiz.github.io/'.$name.'.html');
 ?>
