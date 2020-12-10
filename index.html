@@ -51,14 +51,20 @@ hr{
   padding: 8px;
   margin-bottom: 7px;
   background-color: #000;
-  color: #ffffff;
+  color: #bec2cb;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   border-style: groove;
   border-color: #bec2cb;
 }
 
 .menu li:hover {
+  cursor: pointer;
   background-color: #bec2cb;
+  color: black;
+}
+
+a{
+text-decoration: none;
 }
 
 .aside {
@@ -84,7 +90,7 @@ hr{
   width: 100%;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
   .col-s-3 {width: 25%;}
@@ -111,11 +117,6 @@ hr{
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
-}
-
-a {
-  color: #f1f1f1;
-  text-decoration: none;
 }
 
 a:hover{
@@ -179,10 +180,10 @@ div.desc {
 <div class='row'>
   <div class='col-2 col-s-3 menu'>
     <ul>
-      <li><a href='#about'>About</a></li>
-      <li><a href='#trivia'>Trivia</a></li>
-      <li><a href='#pics'>Pics</a></li>
-      <li><a href='https://github.com/MagickalWiz?tab=repositories'>Repos</a></li>
+	  <li><a onclick="location.href = 'https://magickalwiz.github.io#about';">About</a></li>
+      <li><a onclick="location.href = 'https://magickalwiz.github.io#trivia';">Trivia</a></li>
+      <li><a onclick="location.href = 'https://magickalwiz.github.io#pics';">Pics</a></li>
+      <li><a onclick="location.href = 'https://github.com/magickalwiz?repositories';">Repos</a></li>
     </ul>
   </div>
 <div class='col-1 col-s-1'></div>
