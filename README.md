@@ -1,1 +1,1 @@
-# levi-wood.github.io
+# magickalwiz.github.io
