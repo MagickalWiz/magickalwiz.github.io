@@ -8,14 +8,14 @@ Download the AMD64 ISO, and read the instructions below the download links to in
 
 WARNING: THIS GUIDE IS CREATED FOR USE IN LINUX SYSTEMS
 
-Begin by opening Terminal and becoming root, either by 'su -' or 'sudo -i'. Type 'fdisk -l' to list the various drives. Triple-check (at the very least) that you have the correct drive.
+Begin by opening Terminal and becoming root, either by `su -` or `sudo -i`. Type '`fdisk -l` to list the various drives. Triple-check (at the very least) that you have the correct drive.
 
->magickalwiz@magickalwiz:~$ su -
->magickalwiz@magickalwiz:~$ sudo -i
->root@magickalwiz:#
+>magickalwiz@magickalwiz:\~$ su -
+>magickalwiz@magickalwiz:\~$ sudo -i
+>root@magickalwiz:# fdisk -l
 
-Create a new directory for the drive: 'mkdir /mnt/DRIVENAMEHERE'
-Next: 'mount /dev/DRIVENAMEHERE /mnt/DRIVENAMEHERE
+Create a new directory for the drive: `mkdir /mnt/DRIVENAMEHERE`
+Next: `mount /dev/DRIVENAMEHERE /mnt/DRIVENAMEHERE`
 
 >root@magickalwiz:# mkdir /mnt/DRIVENAMEHERE
 >root@magickalwiz:# mount /dev/DRIVENAMEHERE /mnt/DRIVENAMEHERE
