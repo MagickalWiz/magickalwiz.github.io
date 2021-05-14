@@ -1,4 +1,4 @@
-Begin with a System Rescue USB. Skip to line -- if you already have one. If not, continue reading to learn how to make one.
+Begin with a System Rescue USB. Skip to line 7 if you already have one. If not, continue reading to learn how to make one.
 
 
 https://system-rescue.org/download
