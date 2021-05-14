@@ -1,12 +1,13 @@
-Begin with a System Rescue USB. Skip to line 7 if you already have one. If not, continue reading to learn how to make one.
+This is a simple guide on how to copy a drive to dig through without danger of ruining or messing with the original drive.
+WARNING: THIS GUIDE IS CREATED FOR USE IN LINUX SYSTEMS
+
+Begin with a System Rescue USB. Skip to line 10 if you already have one. If not, continue reading to learn how to make one.
 
 
 https://system-rescue.org/download
 
 Download the AMD64 ISO, and read the instructions below the download links to install on a USB.
 
-
-WARNING: THIS GUIDE IS CREATED FOR USE IN LINUX SYSTEMS
 
 Begin by opening Terminal and becoming root, either by `su -` or `sudo -i`. Type `fdisk -l` to list the various drives. Triple-check (at the very least) that you have the correct drive.
 
