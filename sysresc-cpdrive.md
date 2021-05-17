@@ -23,3 +23,4 @@ Next: `mount /dev/DRIVENAMEHERE /mnt/DRIVENAMEHERE`
 
 Assuming you followed all these directions correctly, congratulations are in order. Go ask someone to congratulate you, because you just copied a drive and can sort through it without inadvertently breaking anything.
 You may now go search for whatever you wanted, without danger of ruining the original.
+![examplefdisk](https://user-images.githubusercontent.com/54958629/118538707-67d92100-b703-11eb-9bfa-9413c1da4441.png)
