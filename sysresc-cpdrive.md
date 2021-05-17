@@ -9,7 +9,7 @@ https://system-rescue.org/download
 Download the AMD64 ISO, and read the instructions below the download links to install on a USB.
 
 
-Begin by opening Terminal and becoming root, either by `su -` or `sudo -i`. Type `fdisk -l` to list the various drives. Triple-check (at the very least) that you have the correct drive.
+Begin by opening Terminal and becoming root, either by `su -` or `sudo -i`. Type `fdisk -l` to list the various drives. Triple-check (at the very least) that you have the correct drive. See below image for example `fdisk -l` output.
 
 >magickalwiz@magickalwiz:\~$ su -<br />
 >magickalwiz@magickalwiz:\~$ sudo -i<br />
