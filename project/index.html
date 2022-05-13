@@ -1,136 +1,175 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>MagickalWiz Adobe Portfolio</title>
+<title>MagickalWiz - GitHub</title>
 <meta name='viewport' content='width=device-width, initial-scale=1.0'>
 <style>
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .row::after {
-	content: '';
-	clear: both;
-	display: table;
+  content: '';
+  clear: both;
+  display: table;
 }
 
 [class*='col-'] {
-	float: left;
-	padding 15px;
+  float: left;
+  padding: 15px;
 }
 
 html {
-	font-family: sans-serif;
-	color: #bec2cb;
-	scroll-behavior: smooth;
+  font-family: sans-serif;
+  color: #bec2cb;
+  scroll-behavior: smooth;
 }
 
-hr {
-	height: 1px;
-	background-color: #bec2cb;
-	border: none;
+hr{
+        height: 1px;
+        background-color: #bec2cb;
+        border: none;
 }
 
 .header {
 	font-size: 20px;
-	background-color: #000;
-	background: url('/img/project/magickalwiz-logo.png') no-repeat 1px, url('/img/wided2.png') no-repeat 1px;
-	background-size: 300px, cover;
-	color: #ffffff;
-	padding: 100px;
-	border-style: groove;
-	border-color: #bec2cb;
+  background-color: #000;
+  background: url('/img/LogoMW.png') no-repeat 1px, url('/img/wided2.png') no-repeat 1px;
+  background-size: 300px, cover;
+  color: #ffffff;
+  padding: 100px;
+  border-style: groove;
+  border-color: #bec2cb;
 }
 
 .menu ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .menu li {
-	padding: 8px;
-	margin-bottom: 7px;
-	background-color: #000;
-	color: #bec2cb;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-	border-style: groove;
-	border-color: #bec2cb;
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #000;
+  color: #bec2cb;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-style: groove;
+  border-color: #bec2cb;
 }
 
 .menu li:hover {
-	cursor: pointer;
-	background-color: #bec2cb;
-	color: black;
+  cursor: pointer;
+  background-color: #bec2cb;
+  color: black;
 }
 
-a {
-	text-decoration: none;
-	color: #bec2cb;
+a{
+text-decoration: none;
 }
 
 .aside {
-	background-color: #000;
-	padding: 15px;
-	color: #bec2cb;
-	text-align: center;
-	font-size: 14px;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-	border-style: groove;
-	border-color: #bec2cb;
+  background-color: #000;
+  padding: 15px;
+  color: #bec2cb;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-style: groove;
+  border-color: #bec2cb;
 }
 
 .footer {
-	background-color: #000;
-	color: #bec2cb;
-	text-align: center;
-	font-size: 12px;
-	padding: 15px;
+  background-color: #000;
+  color: #bec2cb;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
 }
 
 [class*='col-'] {
-	width: 100%;
+  width: 100%;
 }
 
 @media only screen and (min-width: 500px) {
-	.col-s-1 {width: 8.33%;}
-	.col-s-2 {width: 16.66%;}
-	.col-s-3 {width: 25%;}
-	.col-s-4 {width: 33.33%;}
-	.col-s-5 {width: 41.66%;}
-	.col-s-6 {width: 50%;}
-	.col-s-7 {width: 58.33%;}
-	.col-s-8 {width: 66.66%;}
-	.col-s-9 {width: 75%;}
-	.col-s-10 {width: 83.33%;}
-	.col-s-11 {width: 91.66%;}
-	.col-s-12 {width: 100%;}
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
 }
-
 @media only screen and (min-width: 768px) {
-	.col-1 {width: 8.33%;}
-	.col-2 {width: 16.66%;}
-	.col-3 {width: 25%;}
-	.col-4 {width: 33.33%;}
-	.col-5 {width: 41.66%;}
-	.col-6 {width: 50%;}
-	.col-7 {width: 58.33%;}
-	.col-8 {width: 66.66%;}
-	.col-9 {width: 75%;}
-	.col-10 {width: 83.33%;}
-	.col-11 {width: 91.66%;}
-	.col-12 {width: 100%;}
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
 }
 
-a:hover {
-	color: black;
-	background-color: #bec2cb;
+a:hover{
+  color: black;
+  background-color: #bec2cb;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
 }
 
 .clearfix:after {
-	content: '';
-	display: table;
-	clear: both;
+  content: '';
+  display: table;
+  clear: both;
 }
 </style>
 </head>
