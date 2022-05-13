@@ -1,1 +1,223 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>MagickalWiz Adobe Portfolio</title>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<style>
+* {
+	box-sizing: border-box;
+}
 
+.row::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+[class*='col-'] {
+	float: left;
+	padding 15px;
+}
+
+html {
+	font-family: sans-serif;
+	color: #bec2cb;
+	scroll-behavior: smooth;
+}
+
+hr {
+	height: 1px;
+	background-color: #bec2cb;
+	border: none;
+}
+
+.header {
+	font-size: 20px;
+	background-color: #000;
+	background: url('/img/project/magickalwiz-logo.png') no-repeat 1px, url('/img/wided2.png') no-repeat 1px;
+	background-size: 300px, cover;
+	color: #ffffff;
+	padding: 100px;
+	border-style: groove;
+	border-color: #bec2cb;
+}
+
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	padding: 8px;
+	margin-bottom: 7px;
+	background-color: #000;
+	color: #bec2cb;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	border-style: groove;
+	border-color: #bec2cb;
+}
+
+.menu li:hover {
+	cursor: pointer;
+	background-color: #bec2cb;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: #bec2cb;
+}
+
+.aside {
+	background-color: #000;
+	padding: 15px;
+	color: #bec2cb;
+	text-align: center;
+	font-size: 14px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	border-style: groove;
+	border-color: #bec2cb;
+}
+
+.footer {
+	background-color: #000;
+	color: #bec2cb;
+	text-align: center;
+	font-size: 12px;
+	padding: 15px;
+}
+
+[class*='col-'] {
+	width: 100%;
+}
+
+@media only screen and (min-width: 500px) {
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.33%;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;}
+	.col-s-7 {width: 58.33%;}
+	.col-s-8 {width: 66.66%;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+}
+
+a:hover {
+	color: black;
+	background-color: #bec2cb;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+</style>
+</head>
+<body style='background-color:#000'>
+<div class='header'>
+</div>
+<div class='row'>
+	<div class='col-2 col-s-3 menu'>
+		<ul>
+		<li><a onclick="location.href = 'https://magickalwiz.github.io/';">Main page</a></li>
+		<li><a href='#intro'>Introduction</a>
+		<li><a href='#zine'>Zine</a>
+		<li><a href='#logo'>Logo</a>
+		<li><a href='#vector'>Vector Portrait</a>
+		<li><a href='#composite'>Composite</a>
+		<li><a href='#gif'>GIF</a>
+		<li><a href='#painting'>Digital Painting</a>
+		</ul>
+	</div>
+	<div class='col-1 col-s-1'></div>
+		<div class='col-4 col-s-9'>
+			<h1><u>MagickalWiz's Adobe Portfolio</u></h1>
+			<div id='intro'><hr><br><h2>Introduction</h2><p style='font-size:20px'>
+			Hello! My name is MagickalWiz. I am known by other names, but I like to keep anything related to me off the internet. 
+			This is my Adobe Suite and Design portfolio, showcasing all my work over this semester. As an HCI (Human-Computer Interaction) major, I am 
+			required to take this class. However, it is something I am interested in. I have been interested in video and photo editing for a while, 
+			and this was a great class to help me learn more about this subject as well as get experience in a variety of tools. I plan to 
+			be a web design/developer, and media editing is a very useful skill in the industry.<hr></p>
+			</div>
+			
+			<div id='zine'><br><h2>Zine</h2><p style='font-size:20px'>
+			This is a short magazine, or zine, that I created in InDesign. It was built in a short time, and I didn't have the knowledge or the time to improve 
+			the design. As such, it is not clean, cluttered in some areas and empty in others.<br>I regret to inform you that I could not find a way
+			to preview the pdf in this webpage. In it's place, there is a link to open the file separately.
+			<br><a href='/project/D2BeginnerInformation.pdf' target='_blank'>Click here to open in new tab</a><hr></p>
+			</div>
+			<!--<iframe src='/project/file/D2BeginnerInformation.pdf' width='100%' height='100%'></iframe>-->
+			<!--<embed src='/file/D2BeginnerInformation.pdf' type='application/pdf#toolbar=0&navpanes=0' width='100%' height='600px'>-->
+			
+			<div id='logo'><br><h2>Logo</h2><p style='font-size:20px'>
+			I had ideas for a logo a couple years ago, but was presented an opportunity to create a professional-looking logo, compared to my rough,
+			ugly one I had created for my Github main page. This logo was created in Illustrator.</p><br><br>
+			<img src='/img/project/magickalwiz-logo.png' style='border-style: none' height='100%' width='100%'><hr>
+			</div>
+			
+			<div id='vector'><br><h2>Vector Portrait</h2><p style='font-size:20px'>
+			This is a vector portrait created in Illustrator. I selected the family bird, Crispin, as the model. Sadly, he passed away last year.
+			The portrait took me a long time to complete, as it was one of the first assignments and I wasn't used to the tools. I also had trouble
+			at this point; over a couple weeks, I couldn't sign into Adobe. So I finally was able to start the project... the day after it was due.
+			I'm not too happy with the shading on the hands, the fingernail in particular looks bad. At this point in the project, I just had to get
+			 it done because it was a week late and I was almost behind on other assignments.</p>
+			<img src='/img/project/vectorportrait.png' style='border-style: none' height='100%' width='100%'><hr>
+			</div>
+			
+			<div id='composite'><br><h2>Photo Composite</h2><p style='font-size:20px'>
+			I created this image composite in Photoshop. It is a collection of screenshots from the game Destiny 2, in which I removed the backgrounds from 
+			the Guardians and resized them to fit the perspective. I took all the screenshots myself on a makeshift greenscreen. I did this be finding 
+			an area out of bounds that had a green sky which could be easily removed using Photoshop tools.</p>
+			<img src='/img/project/A Day In The Life of A Guardian.png' style='border-style:none' height='100%' width='100%'><hr>
+			</div>
+			
+			<div id='gif'><br><h2>GIF</h2><p style='font-size:20px'>
+			This is a GIF (I prefer the pronunciation 'jif') I created in Photoshop using the frame animation tool. I took screenshots of my friends 
+			in Destiny 2, and put them together along with some added effects. Thanks to Jordddd and Bontu for their assistance.</p>
+			<img src='/img/project/magickalwiz-gif.gif' style='border-style: none' height='100%' width='100%'><hr>
+			</div>
+			
+			<div id='painting'><br><h2>Digital Painting</h2><p style='font-size:20px'>
+			This is my Guardian, digitally painted using Photoshop. I did not draw this freehand, I painted over the actual image of him (also a screenshot I 
+			personally took). I couldn't add a lot of details, so the belt and bandolier don't look great, but I'm otherwise proud of it. I will add 
+			a background sometime, as the black outline of Izanagi's Burden (the sniper rifle) is impossible to see, as is part of the gauntlet on his left arm.</p>
+			<img src='/img/project/DigitalPainting.png' style='border-style: none' height='100%' width='100%'><hr>
+			</div>
+		</div>	
+	</div>
+</div>
+
+<div class='footer'>
+	<img src='/img/project/magickalwiz-logo.png' style='border-style: none' height='150' width='170'>
+	<br><a href='#intro'>Introduction</a><br>
+	<br><a href='#zine'>Zine</a><br>
+	<br><a href='#logo'>Logo</a><br>
+	<br><a href='#vector'>Vector Portrait</a><br>
+	<br><a href='#composite'>Composite</a><br>
+	<br><a href='#gif'>GIF</a><br>
+	<br><a href='#painting'>Digital Painting</a><br>
+</div>
+
+</body>
+</html>
